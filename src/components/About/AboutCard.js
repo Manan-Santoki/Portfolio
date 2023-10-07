@@ -1,40 +1,41 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
+import { ImPacman } from "react-icons/im";
+import { ImSpinner } from "react-icons/im";
+import { ImAirplane } from "react-icons/im";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi There, I am <span className="purple">Manan Santoki </span>
+            from <span className="purple"> Vadodara, GJ, India.</span>
+            <br /> I am a pre final year student pursuing an Btech Computer
+            Science Engineering at VIT Vellore, Tamil Nadu.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Additionally, I am currently might be doing something cool as in
+            learning new technologies and building projects.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding and building stuff I am also interested in
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPacman /> Playing Games. Yeah both Indor and Outdoor!
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImSpinner /> Building Software or Tinkering with Hardware
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImAirplane /> Travelling...
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Let's go invent tomorrow instead of worrying about what happened yesterday !"{""}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Steve Jobs</footer>
         </blockquote>
       </Card.Body>
     </Card>

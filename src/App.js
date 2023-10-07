@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+import Skillset from "./components/Skillset/Skillset";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,8 +29,9 @@ function App() {
         <Navbar /> 
           <Home />
           <About />
-          <Projects />
-          <Resume />
+          <Skillset />
+          {/* <Projects /> */}
+          {/* <Resume /> */}
         <Footer />
       </div>
     </div>
